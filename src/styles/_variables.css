@@ -1,0 +1,57 @@
+:root {
+  /* Windows 98 Colors */
+  --win98-bg: #008080;
+  --win98-gray: #c0c0c0;
+  --win98-dark-gray: #808080;
+  --win98-light-gray: #dfdfdf;
+  --win98-white: #ffffff;
+  --win98-black: #000000;
+  --win98-blue: #000080;
+  --win98-light-blue: #1084d8;
+  
+  /* Window Colors */
+  --window-bg: var(--win98-gray);
+  --window-title-bar: var(--win98-blue);
+  --window-title-bar-active: var(--win98-light-blue);
+  --window-border-light: var(--win98-white);
+  --window-border-dark: var(--win98-dark-gray);
+  
+  /* Button Colors */
+  --button-bg: var(--win98-gray);
+  --button-border-light: var(--win98-white);
+  --button-border-dark: var(--win98-dark-gray);
+  
+  /* Text Colors */
+  --text-primary: var(--win98-black);
+  --text-secondary: var(--win98-dark-gray);
+  --text-white: var(--win98-white);
+  
+  /* Shadows */
+  --shadow-outset: 1px 1px 0 var(--win98-white), -1px -1px 0 var(--win98-dark-gray),
+                   2px 2px 0 var(--win98-dark-gray), -2px -2px 0 var(--win98-white);
+  --shadow-inset: inset 1px 1px 0 var(--win98-dark-gray), inset -1px -1px 0 var(--win98-white),
+                  inset 2px 2px 0 var(--win98-white), inset -2px -2px 0 var(--win98-dark-gray);
+  
+  /* Font */
+  --font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  --font-mono: 'Courier New', Courier, monospace;
+  --font-size: 14px;
+  --font-size-small: 12px;
+  
+  /* Spacing */
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  
+  /* Taskbar */
+  --taskbar-height: 28px;
+  
+  /* Z-index layers */
+  --z-desktop: 0;
+  --z-icon: 1;
+  --z-window: 10;
+  --z-taskbar: 100;
+  --z-start-menu: 200;
+  --z-tooltip: 300;
+}
